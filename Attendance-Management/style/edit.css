@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c757d; /* Grey */
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}

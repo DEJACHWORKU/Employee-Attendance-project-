@@ -1,0 +1,160 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #f0f4f8, #e1e9ee);
+}
+
+/* Container styles */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    font-weight: 600;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+input[type="date"],
+input[type="submit"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus,
+select:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e1e9ee;
+}
+
+/* Messages */
+.success-message, .error-message {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Print button */
+.no-print {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.logout-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: hsl(0, 90%, 44%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.no-print:hover {
+    background-color: #218838;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    input[type="date"],
+    input[type="submit"],
+    select {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
